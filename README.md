@@ -7,7 +7,7 @@
 - Week 04 - Heap and binary trees
 - Week 05 - AVL and RB trees, Graphs
 - Week 06 - BFS, DFS and shortest path
-- Week 07 - Dynamic programming
-- Week 08 - Greedy algorithm
-- Week 09-10 - Object-oriented programming
-- Week 11-12 - Design patterns
+- Week 07 - Dynamic programming, greedy algorithm
+- Week 08 - Computational complexity
+- Week 09-11 - Object-oriented programming, inheritance, 
+- Week 12-13 - Design patterns
