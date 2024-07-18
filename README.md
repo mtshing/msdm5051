@@ -9,5 +9,5 @@
 - Week 06 - BFS, DFS and shortest path
 - Week 07 - Dynamic programming, greedy algorithm
 - Week 08 - Computational complexity
-- Week 09-11 - Object-oriented programming, inheritance, 
+- Week 09-11 - Object-oriented programming, inheritance
 - Week 12-13 - Design patterns
