@@ -1,6 +1,8 @@
 # MSDM5051 Tutorial Files
 
-**Syllabus** (Fall 2023-2024)
+(Known issue: SVG diagram in notebooks cannot be rendered within github. Please download for viewing purposes)
+
+**Syllabus** (Fall 2024-2025, Prof. WANG Yi)
 - Week 01 - Data structure
 - Week 02 - Recursion
 - Week 03 - Sorting algorithms
