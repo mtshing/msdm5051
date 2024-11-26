@@ -8244,7 +8244,7 @@ My course is　MSDM5051
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;tutorial_11.Student at 0x1905efa27b0&gt;</pre>
+<pre>&lt;tutorial_11.Student at 0x1e10c05bb30&gt;</pre>
 </div>
 </div>
 </div>
@@ -8302,7 +8302,7 @@ My course is　MSDM5051
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;tutorial_11.Student at 0x1905efa27b0&gt;</pre>
+<pre>&lt;tutorial_11.Student at 0x1e108bc4ec0&gt;</pre>
 </div>
 </div>
 </div>
@@ -8331,14 +8331,14 @@ My course is　MSDM5051
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># This is for clearing any definitions in previous cells in jupyter notebook</span>
 <span class="o">%</span><span class="k">reset</span> 
 
-<span class="c1"># If you have this line at the start of tutorial_11.py</span>
+<span class="c1"># First uncomment this line at the start of tutorial_11.py</span>
 <span class="c1"># __all__ = ["code", "Student"]</span>
 
 <span class="c1"># Then importing with * will only import the definitions of `code` and `Student`</span>
 <span class="kn">from</span> <span class="nn">tutorial_11</span> <span class="kn">import</span> <span class="o">*</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">code</span><span class="p">)</span>               <span class="c1"># code is imported --&gt; ok</span>
-<span class="n">Stud</span><span class="p">(</span><span class="s2">"Tom"</span><span class="p">,</span> <span class="s2">"A+"</span><span class="p">)</span>         <span class="c1"># Student is imported --&gt; ok</span>
+<span class="n">Student</span><span class="p">(</span><span class="s2">"Tom"</span><span class="p">,</span> <span class="s2">"A+"</span><span class="p">)</span>      <span class="c1"># Student is imported --&gt; ok</span>
 <span class="n">get_course</span><span class="p">()</span>              <span class="c1"># get_course() is NOT imported --&gt; raise error </span>
 </pre></div>
 </div>
@@ -8365,13 +8365,12 @@ My course is　MSDM5051
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[18], line 11</span>
-<span class="ansi-green-fg">      8</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span> <span class="ansi-bold" style="color: rgb(0,0,255)">tutorial_11</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span style="color: rgb(98,98,98)">*</span>
+Cell <span class="ansi-green-intense-fg ansi-bold">In[18], line 12</span>
 <span class="ansi-green-fg">     10</span> <span style="color: rgb(0,135,0)">print</span>(code)               <span style="color: rgb(95,135,135)"># code is imported --&gt; ok</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 11</span> <span class="ansi-yellow-bg">Stud</span>(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">Tom</span><span style="color: rgb(175,0,0)">"</span>, <span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">A+</span><span style="color: rgb(175,0,0)">"</span>)         <span style="color: rgb(95,135,135)"># Student is imported --&gt; ok</span>
-<span class="ansi-green-fg">     12</span> get_course()              <span style="color: rgb(95,135,135)"># get_course() is NOT imported --&gt; raise error </span>
+<span class="ansi-green-fg">     11</span> Student(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">Tom</span><span style="color: rgb(175,0,0)">"</span>, <span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">A+</span><span style="color: rgb(175,0,0)">"</span>)      <span style="color: rgb(95,135,135)"># Student is imported --&gt; ok</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 12</span> <span class="ansi-yellow-bg">get_course</span>()              <span style="color: rgb(95,135,135)"># get_course() is NOT imported --&gt; raise error </span>
 
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'Stud' is not defined</pre>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'get_course' is not defined</pre>
 </div>
 </div>
 </div>
@@ -8543,7 +8542,7 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[22], line 1</span>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;tutorial_11.Student object at 0x000001905EF18860&gt;
+<pre>&lt;tutorial_11.Student object at 0x000001E10DC58C80&gt;
 Tom  is studying hard. He gets a  A+  in this course.
 </pre>
 </div>
@@ -8672,7 +8671,7 @@ Tom  is studying hard. He gets a  A+  in this course.
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>['Student', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'code', 'get_course']
+<pre>['Student', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'code', 'get_course']
 </pre>
 </div>
 </div>
